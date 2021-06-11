@@ -1,0 +1,44 @@
+abstraction : base blueprint to follow by others
+
+-WHOLE NUMBERS(abstract)  ===> in python (int, float, long, ..)
+-actually we don't use NUMBER(abstract base layer or template to others to follow) i use FLOAT, INT, LONG
+
+========================================================================================
+A Python identifier is a name used to identify a variable, function, class, module or other object.
+An identifier starts with a letter A to Z or a to z or an underscore (_) followed by zero or more letters,
+underscores and digits (0 to 9). ... Thus, Manpower and manpower are two different identifiers in Python.
+
+latitude = float("34.6564")
+longitud = float("6.7457457")
+
+# LATITUDE IS IDENTIFIER NOT THE OBJ, OBJ IS THE FLOAT("34.6564")
+========================================================================================
+- interactions between objs happens through the methods
+- get help of fuction
+>> dir(float)
+>> help(float.__mul__)
+
+- float obj uses __mul__ method to preform multiply operation
+
+-anti_lat = MADRID_LAT.__mul__(-1)  THE SAMNE OF   ANTIPOD_LAT = MADRID_LAT * -1
+
+-print(latitude.__mul__(int("-10")))
+
+- FLOAT COMES THEN INT ==> 2.3 * 10 ==> 23.0 NOT 23
+- FLOAT COMES THEN INT ==> 12 / 4.0 ==> 3.0 not 3
+- hierarchy of numbers ==> FLOAT, then INT
+
+========================================================================================
+-functions vs methods: method is a fucntion related to obj
+-fucntion: is a block of code that perfom something, not tied to partical obj. ex: print()
+- python uses magic methods to perform operations like >, >=, <, <=, ==
+>> dir(__builtin__)
+all functions that you can use directrly in python.
+========================================================================================
+- who to write programm ?
+1- select right object type.
+2- methods and functions
+3- create new obj types
+4- decision making
+>> help(float.__le__)
+
