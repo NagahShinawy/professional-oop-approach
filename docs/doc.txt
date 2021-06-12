@@ -41,4 +41,59 @@ all functions that you can use directrly in python.
 3- create new obj types
 4- decision making
 >> help(float.__le__)
+###################################################################################################
+syntactic sugar: make code is easy to write and read.
+###################################################################################################
+- objects:
+>> type(Map)   ==> type, type if type of itself
+>> type(object)   ==> type, type if type of itself
+>> type(if)  ==> invalid syntax
+>> type(folium)  ==> module obj
+>> type(print)  ==> builtin_function_or_method
+
+
+********************************************
+- identifier: it just name to refer to object
+- example: john = Person()
+- the acual obj is Person(), but john it is just name to refer to that obj
+
+********************************************
+keywords: from, import, if, else, True, False, None, break, continue
+
+********************************************
+Delimiters: just like ", = , : , (), .,
+
+********************************************
+blank lines : for readability pupposes.
+
+********************************************
+white spaces => from math[]import[]pow, [] is whitespaces
+********************************************
+indentations
+********************************************
+comments: uses by #
+
+********************************************
+Artithmetic Operators: +. -. /, //, %, *, **
+********************************************
+Assignment Operators: =, +=, -=, *=, /=, //=
+********************************************
+Comparison Operators: ==, >, <, !=, >=, <=
+********************************************
+Logical Operators: and or not
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
